@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="/css/profile.css">
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js"></script>
+</head>
+<body>
+    <h1>Welcome to Your Profile!</h1>
+    <p>You are logged in with Gmail.</p>
+    <p>Name: <span id="user-name">N/A</span></p>
+    <p>Email: <span id="user-email">N/A</span></p>
+    <img id="profile-pic" style="display: none;" alt="Profile Picture">
+    <button id="signout">Sign Out</button>
+    <script src="/js/profile.js"></script>
+</body>
+</html>
